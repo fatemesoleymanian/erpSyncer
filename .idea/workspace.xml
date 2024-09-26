@@ -2,19 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErpSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/accountPayableAccounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/accountReceivableAccounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/assetAccounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/bankLedgerAccounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/doubleEntryBookKeeping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/generalLedgerAccounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/account/service/singleEntryBookKeeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Invoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Payments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/ProductAttribiutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Territories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/InvoiceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/ShippingMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/databese_handler/Product.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +34,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OnlineOrder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/PhysicalOrder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/OrderStatus.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,13 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/workSpace/ERP-System/erpSyncer&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +83,9 @@
       <option name="presentableId" value="Default" />
       <updated>1726040459541</updated>
       <workItem from="1726040460954" duration="1820000" />
+      <workItem from="1726748832214" duration="5002000" />
+      <workItem from="1727021065321" duration="135000" />
+      <workItem from="1727353577835" duration="11379000" />
     </task>
     <servers />
   </component>
