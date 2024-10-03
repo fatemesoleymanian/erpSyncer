@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Invoices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OrderDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Payments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/ProductAttribiutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Suppliers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Territories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/InvoiceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/ShippingMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/databese_handler/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Invoices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OnlineOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OrderDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Payments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/PhysicalOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/ProductAttribiutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Suppliers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Territories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/InvoiceStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/ShippingMethods.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OnlineOrder.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/PhysicalOrder.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/OrderStatus.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,6 +60,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;A:/workSpace/ERP-System/erpSyncer&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -85,7 +77,10 @@
       <workItem from="1726040460954" duration="1820000" />
       <workItem from="1726748832214" duration="5002000" />
       <workItem from="1727021065321" duration="135000" />
-      <workItem from="1727353577835" duration="11379000" />
+      <workItem from="1727353577835" duration="11651000" />
+      <workItem from="1727434835303" duration="604000" />
+      <workItem from="1727450077197" duration="894000" />
+      <workItem from="1727959078817" duration="5310000" />
     </task>
     <servers />
   </component>

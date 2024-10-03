@@ -1,9 +1,10 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Employees {
-    private Integer id;
+    private UUID id;
     private String first_name;
     private String last_name;
     private String title;

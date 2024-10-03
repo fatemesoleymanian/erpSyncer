@@ -1,4 +1,4 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
 import java.util.Date;
 

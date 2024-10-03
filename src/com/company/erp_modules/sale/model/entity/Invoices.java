@@ -1,11 +1,13 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
-import com.company.erp_modules.sale.service.statics.InvoiceStatus;
+
+import com.company.erp_modules.sale.model.entity.statics.InvoiceStatus;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Invoices {
-    private Integer id;
+    private UUID id;
     private Integer order_id;
     private String total_amount;
     private InvoiceStatus invoice_status;

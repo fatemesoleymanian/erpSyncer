@@ -1,9 +1,10 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Refunds {
-    private Integer id;
+    private UUID id;
     private Integer order_id;
     private Integer invoice_id;
     private Integer payment_id;

@@ -1,12 +1,15 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
-import com.company.erp_modules.sale.service.statics.PaymentMethods;
-import com.company.erp_modules.sale.service.statics.PaymentStatus;
+
+
+import com.company.erp_modules.sale.model.entity.statics.PaymentMethods;
+import com.company.erp_modules.sale.model.entity.statics.PaymentStatus;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Payments {
-    private Integer id;
+    private UUID id;
     private Integer order_id;
     private Integer invoice_id;
     private PaymentMethods payment_method;

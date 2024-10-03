@@ -1,9 +1,10 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class ProductAttribiutes {
-    private Integer id;
+    private UUID id;
     private Integer product_id;
     private String name;
     private String type;

@@ -1,7 +1,9 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
+
+import java.util.UUID;
 
 public class OrderDetails {
-    private Integer id;
+    private UUID id;
     private Integer order_id;
     private Integer product_id;
     private Integer qty;

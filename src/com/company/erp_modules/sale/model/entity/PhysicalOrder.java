@@ -1,6 +1,7 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
-import com.company.erp_modules.sale.service.statics.PaymentMethods;
+
+import com.company.erp_modules.sale.model.entity.statics.PaymentMethods;
 
 public class PhysicalOrder extends Order {
 

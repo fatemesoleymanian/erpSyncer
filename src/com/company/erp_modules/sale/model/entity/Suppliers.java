@@ -1,7 +1,9 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
+
+import java.util.UUID;
 
 public class Suppliers {
-    private Integer id;
+    private UUID id;
     private String company_name;
     private String contact_name;
     private String phone;

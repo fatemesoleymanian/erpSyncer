@@ -1,12 +1,15 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
 
-import com.company.erp_modules.sale.service.statics.OrderStatus;
-import com.company.erp_modules.sale.service.statics.PaymentStatus;
+
+
+import com.company.erp_modules.sale.model.entity.statics.OrderStatus;
+import com.company.erp_modules.sale.model.entity.statics.PaymentStatus;
 
 import java.util.Date;
+import java.util.UUID;
 
 public abstract class Order {
-    private int id;
+    private UUID id;
     private String totalPrice;
     private String type;//online - in person
     private int discount;
@@ -16,10 +19,9 @@ public abstract class Order {
     private OrderStatus status;
     private PaymentStatus payment_status;
     private String charge_id;
-
     /**RELATIONS **/
-    private int invoice_id;
-    private int costumer_id;
+    private UUID invoice_id;
+    private UUID costumer_id;
     private Date created_at;
     private Date updated_at;
 

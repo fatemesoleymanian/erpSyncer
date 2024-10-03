@@ -1,7 +1,9 @@
-package com.company.erp_modules.sale.service;
+package com.company.erp_modules.sale.model.entity;
+
+import java.util.UUID;
 
 public class Departments {
-    private Integer id;
+    private UUID id;
     private String name;
     private Integer manager_id;
     private String location;

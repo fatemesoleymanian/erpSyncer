@@ -1,4 +1,4 @@
-package com.company.erp_modules.sale.service.statics;
+package com.company.erp_modules.sale.model.entity.statics;
 
 public enum OrderStatus {
     Pending,
