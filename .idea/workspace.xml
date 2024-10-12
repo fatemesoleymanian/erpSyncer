@@ -2,31 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Customers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Departments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Employees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Invoices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OnlineOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/OrderDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Payments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/PhysicalOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/ProductAttribiutes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Refunds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Shippings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Suppliers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Territories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/Transactions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/InvoiceStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/OrderStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/PaymentStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/service/statics/ShippingMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Departments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Departments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Invoices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Payments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/ProductAttribiutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/ProductAttribiutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Refunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Refunds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;A:/workSpace/ERP-System/erpSyncer&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "A:/workSpace/Architecture/sample-mvc pattern/sample-mvc pattern",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +73,10 @@
       <workItem from="1727353577835" duration="11651000" />
       <workItem from="1727434835303" duration="604000" />
       <workItem from="1727450077197" duration="894000" />
-      <workItem from="1727959078817" duration="5310000" />
+      <workItem from="1727959078817" duration="5482000" />
+      <workItem from="1728571094038" duration="392000" />
+      <workItem from="1728581186832" duration="2181000" />
+      <workItem from="1728709990224" duration="3501000" />
     </task>
     <servers />
   </component>

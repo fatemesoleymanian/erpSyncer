@@ -3,9 +3,13 @@ package com.company.erp_modules.sale.model.repository;
 
 import com.company.erp_modules.sale.model.entity.Customers;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.List;
 
 public class CustomersRepository {
+
+    Connection connection = null;
 
     public Customers createCustomer (Customers customer){
         //save into db

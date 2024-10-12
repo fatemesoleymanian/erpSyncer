@@ -14,6 +14,62 @@ public class Invoices {
     private Date created_at;
     private Date updated_at;
 
+    public Invoices(UUID id, Integer order_id, String total_amount, InvoiceStatus invoice_status, Date created_at, Date updated_at) {
+        this.id = id;
+        this.order_id = order_id;
+        this.total_amount = total_amount;
+        this.invoice_status = invoice_status;
+        this.created_at = created_at;
+        this.updated_at = updated_at;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public Integer getOrder_id() {
+        return order_id;
+    }
+
+    public void setOrder_id(Integer order_id) {
+        this.order_id = order_id;
+    }
+
+    public String getTotal_amount() {
+        return total_amount;
+    }
+
+    public void setTotal_amount(String total_amount) {
+        this.total_amount = total_amount;
+    }
+
+    public InvoiceStatus getInvoice_status() {
+        return invoice_status;
+    }
+
+    public void setInvoice_status(InvoiceStatus invoice_status) {
+        this.invoice_status = invoice_status;
+    }
+
+    public Date getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(Date created_at) {
+        this.created_at = created_at;
+    }
+
+    public Date getUpdated_at() {
+        return updated_at;
+    }
+
+    public void setUpdated_at(Date updated_at) {
+        this.updated_at = updated_at;
+    }
 }
 
 //    CREATE TABLE invoices (

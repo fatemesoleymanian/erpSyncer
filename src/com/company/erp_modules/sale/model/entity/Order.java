@@ -27,7 +27,8 @@ public abstract class Order {
 
 
 
-//    CREATE TABLE sales_orders (
+
+    //    CREATE TABLE sales_orders (
 //     order_id SERIAL PRIMARY KEY,
 //    customer_id INT REFERENCES customers(customer_id) ON DELETE CASCADE,
 //    order_status VARCHAR(50) CHECK (order_status IN ('Pending', 'Confirmed', 'Shipped', 'Delivered', 'Cancelled')) NOT NULL,

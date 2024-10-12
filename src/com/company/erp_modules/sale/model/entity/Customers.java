@@ -17,6 +17,26 @@ public class Customers {
     private String city;
     private String region;
     private String country;
+    private String postal_code;
+    private Date created_at;
+    private Date updated_at;
+
+    public Customers(UUID id, String first_name, String last_name, String email_address, String phone_number, String fax, String billing_address, String shipping_address, String city, String region, String country, String postal_code, Date created_at, Date updated_at) {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email_address = email_address;
+        this.phone_number = phone_number;
+        this.fax = fax;
+        this.billing_address = billing_address;
+        this.shipping_address = shipping_address;
+        this.city = city;
+        this.region = region;
+        this.country = country;
+        this.postal_code = postal_code;
+        this.created_at = created_at;
+        this.updated_at = updated_at;
+    }
 
     public UUID getId() {
         return id;
@@ -130,9 +150,7 @@ public class Customers {
         this.updated_at = updated_at;
     }
 
-    private String postal_code;
-    private Date created_at;
-    private Date updated_at;
+
 
 
 }

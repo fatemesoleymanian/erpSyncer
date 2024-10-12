@@ -37,26 +37,151 @@ public class Product {
     private Date deleted_at;
 
 
-    public void createProduct (){
-
+    public Product(UUID id, String name, String code, String slug, String description, String quantity_per_unit, String unit_price, Integer units_in_stock, String units_on_order, Integer reorder_level, Boolean discontinued, Integer supplier_id, Integer category_id, Date created_at, Date updated_at, Date deleted_at) {
+        this.id = id;
+        this.name = name;
+        this.code = code;
+        this.slug = slug;
+        this.description = description;
+        this.quantity_per_unit = quantity_per_unit;
+        this.unit_price = unit_price;
+        this.units_in_stock = units_in_stock;
+        this.units_on_order = units_on_order;
+        this.reorder_level = reorder_level;
+        this.discontinued = discontinued;
+        this.supplier_id = supplier_id;
+        this.category_id = category_id;
+        this.created_at = created_at;
+        this.updated_at = updated_at;
+        this.deleted_at = deleted_at;
     }
-    public void showProduct (int id){
 
+    public UUID getId() {
+        return id;
     }
-    public void showManyProducts (){
 
+    public void setId(UUID id) {
+        this.id = id;
     }
-    public void updateProduct (int id){
 
+    public String getName() {
+        return name;
     }
-    public void updateManyProducts (){
 
+    public void setName(String name) {
+        this.name = name;
     }
-    public void deleteProduct (int id){
 
+    public String getCode() {
+        return code;
     }
-    public void deleteManyProducts (){
 
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getSlug() {
+        return slug;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getQuantity_per_unit() {
+        return quantity_per_unit;
+    }
+
+    public void setQuantity_per_unit(String quantity_per_unit) {
+        this.quantity_per_unit = quantity_per_unit;
+    }
+
+    public String getUnit_price() {
+        return unit_price;
+    }
+
+    public void setUnit_price(String unit_price) {
+        this.unit_price = unit_price;
+    }
+
+    public Integer getUnits_in_stock() {
+        return units_in_stock;
+    }
+
+    public void setUnits_in_stock(Integer units_in_stock) {
+        this.units_in_stock = units_in_stock;
+    }
+
+    public String getUnits_on_order() {
+        return units_on_order;
+    }
+
+    public void setUnits_on_order(String units_on_order) {
+        this.units_on_order = units_on_order;
+    }
+
+    public Integer getReorder_level() {
+        return reorder_level;
+    }
+
+    public void setReorder_level(Integer reorder_level) {
+        this.reorder_level = reorder_level;
+    }
+
+    public Boolean getDiscontinued() {
+        return discontinued;
+    }
+
+    public void setDiscontinued(Boolean discontinued) {
+        this.discontinued = discontinued;
+    }
+
+    public Integer getSupplier_id() {
+        return supplier_id;
+    }
+
+    public void setSupplier_id(Integer supplier_id) {
+        this.supplier_id = supplier_id;
+    }
+
+    public Integer getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(Integer category_id) {
+        this.category_id = category_id;
+    }
+
+    public Date getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(Date created_at) {
+        this.created_at = created_at;
+    }
+
+    public Date getUpdated_at() {
+        return updated_at;
+    }
+
+    public void setUpdated_at(Date updated_at) {
+        this.updated_at = updated_at;
+    }
+
+    public Date getDeleted_at() {
+        return deleted_at;
+    }
+
+    public void setDeleted_at(Date deleted_at) {
+        this.deleted_at = deleted_at;
     }
 }
 
