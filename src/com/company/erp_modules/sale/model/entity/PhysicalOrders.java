@@ -3,14 +3,14 @@ package com.company.erp_modules.sale.model.entity;
 
 import com.company.erp_modules.sale.model.entity.statics.PaymentMethods;
 
-public class PhysicalOrder extends Order {
+public class PhysicalOrders extends Orders {
 
     private Integer cashier_id;//employee_id
     private Integer branch_id;//store_id
     private Integer store_location;
     private PaymentMethods payment_method ;
 
-    public PhysicalOrder(Integer cashier_id, Integer branch_id, Integer store_location, PaymentMethods payment_method) {
+    public PhysicalOrders(Integer cashier_id, Integer branch_id, Integer store_location, PaymentMethods payment_method) {
         this.cashier_id = cashier_id;
         this.branch_id = branch_id;
         this.store_location = store_location;

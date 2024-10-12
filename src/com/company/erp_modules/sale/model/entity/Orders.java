@@ -8,7 +8,7 @@ import com.company.erp_modules.sale.model.entity.statics.PaymentStatus;
 import java.util.Date;
 import java.util.UUID;
 
-public abstract class Order {
+public abstract class Orders {
     private UUID id;
     private String totalPrice;
     private String type;//online - in person

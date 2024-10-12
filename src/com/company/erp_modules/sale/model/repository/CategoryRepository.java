@@ -1,25 +1,41 @@
 package com.company.erp_modules.sale.model.repository;
 
+
+import com.company.erp_modules.sale.model.entity.Categories;
+
+import java.util.List;
+import java.util.UUID;
+
 public class CategoryRepository {
-    public void creatCategory(){
+    private Categories categories;
+    public void save(){
 
     }
-    public void showCategory(){
+    public void find(UUID id){
 
     }
-    public void showCategories(){
+    public void findMany(List<UUID> ids){
 
     }
-    public void updateCategory(){
+    public void findAll(){
 
     }
-    public void updateCategories(){
+    public void update(UUID id){
 
     }
-    public void deleteCategory(){
+    public void updateMany(List<UUID> ids, Categories category){
 
     }
-    public void deleteCategories(){
+    public void updateAll(){
+
+    }
+    public void delete(Boolean soft, UUID id){
+
+    }
+    public void deleteMany(Boolean soft, List<UUID> ids){
+
+    }
+    public void deleteAll(Boolean soft){
 
     }
 }

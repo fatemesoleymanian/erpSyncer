@@ -2,7 +2,7 @@ package com.company.erp_modules.sale.model.entity;
 
 import java.util.Date;
 
-public class OnlineOrder extends Order {
+public class OnlineOrders extends Orders {
     private Date shipped_date;
     private Date deliver_date;
     private Date required_date;
@@ -12,7 +12,7 @@ public class OnlineOrder extends Order {
     private int transaction_id;
     private int ship_id;
 
-    public OnlineOrder(Date shipped_date, Date deliver_date, Date required_date, String ip_address, String payment_gateway, int basket_id, int transaction_id, int ship_id) {
+    public OnlineOrders(Date shipped_date, Date deliver_date, Date required_date, String ip_address, String payment_gateway, int basket_id, int transaction_id, int ship_id) {
         this.shipped_date = shipped_date;
         this.deliver_date = deliver_date;
         this.required_date = required_date;

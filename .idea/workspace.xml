@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Departments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Departments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Invoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Payments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/ProductAttribiutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/ProductAttribiutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Refunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Refunds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OnlineOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/PhysicalOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Regions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
       <workItem from="1727959078817" duration="5482000" />
       <workItem from="1728571094038" duration="392000" />
       <workItem from="1728581186832" duration="2181000" />
-      <workItem from="1728709990224" duration="3501000" />
+      <workItem from="1728709990224" duration="5980000" />
     </task>
     <servers />
   </component>

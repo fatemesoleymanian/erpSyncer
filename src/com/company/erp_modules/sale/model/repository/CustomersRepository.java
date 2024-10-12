@@ -2,39 +2,40 @@ package com.company.erp_modules.sale.model.repository;
 
 
 import com.company.erp_modules.sale.model.entity.Customers;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.List;
+import java.util.UUID;
 
 public class CustomersRepository {
 
-    Connection connection = null;
+    private Customers customer;
+    public void save(){
 
-    public Customers createCustomer (Customers customer){
-        //save into db
-        return customer;
     }
-    public Customers updateCustomer (Customers customer){
-        // update customer in db
-        return customer;
+    public void find(UUID id){
+
     }
-    public List<Customers> updateManyCustomers (List<Customers> customers){
-        //find customers and update them
-        return customers;
+    public void findMany(List<UUID> ids){
+
     }
-    public void deleteCustomer (Customers customer){
-        // delete customer in db
+    public void findAll(){
+
     }
-    public void deleteManyCustomers (List<Customers> customers){
-        //find customers and delete0 them
+    public void update(UUID id, Customers customer){
+
     }
-    public Customers showCustomer (Customers customer){
-        // find customer in db
-        return customer;
+    public void updateMany(List<UUID> ids){
+
     }
-    public List<Customers> showManyCustomers (List<Customers> customers){
-        //find customers to return
-        return customers;
+    public void updateAll(){
+
+    }
+    public void delete(Boolean soft, UUID id){
+
+    }
+    public void deleteMany(Boolean soft, List<UUID> ids){
+
+    }
+    public void deleteAll(Boolean soft){
+
     }
 }

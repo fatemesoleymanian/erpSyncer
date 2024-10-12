@@ -3,7 +3,7 @@ package com.company.erp_modules.sale.model.entity;
 import java.util.Date;
 import java.util.UUID;
 
-public class Product {
+public class Products {
     private UUID id;
     private String name;
     private String code;
@@ -37,7 +37,7 @@ public class Product {
     private Date deleted_at;
 
 
-    public Product(UUID id, String name, String code, String slug, String description, String quantity_per_unit, String unit_price, Integer units_in_stock, String units_on_order, Integer reorder_level, Boolean discontinued, Integer supplier_id, Integer category_id, Date created_at, Date updated_at, Date deleted_at) {
+    public Products(UUID id, String name, String code, String slug, String description, String quantity_per_unit, String unit_price, Integer units_in_stock, String units_on_order, Integer reorder_level, Boolean discontinued, Integer supplier_id, Integer category_id, Date created_at, Date updated_at, Date deleted_at) {
         this.id = id;
         this.name = name;
         this.code = code;

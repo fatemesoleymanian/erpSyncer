@@ -2,11 +2,11 @@ package com.company.erp_modules.sale.model.entity;
 
 import java.util.UUID;
 
-public class Region {
+public class Regions {
     private UUID id;
     private String description;
 
-    public Region(UUID id, String description) {
+    public Regions(UUID id, String description) {
         this.id = id;
         this.description = description;
     }

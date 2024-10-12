@@ -3,7 +3,7 @@ package com.company.erp_modules.sale.model.entity;
 import java.util.Date;
 import java.util.UUID;
 
-public class Category {
+public class Categories {
     private UUID id;
     private String name;
     private String description;
@@ -12,7 +12,7 @@ public class Category {
     private Date updated_at;
     private Date deleted_at;
 
-    public Category(UUID id, String name, String description, String picture, Date created_at, Date updated_at, Date deleted_at) {
+    public Categories(UUID id, String name, String description, String picture, Date created_at, Date updated_at, Date deleted_at) {
         this.id = id;
         this.name = name;
         this.description = description;
