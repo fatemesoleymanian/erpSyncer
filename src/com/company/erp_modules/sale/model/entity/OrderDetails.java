@@ -5,7 +5,9 @@ import java.util.UUID;
 public class OrderDetails {
     private UUID id;
     private Integer order_id;
+    private String order_number;
     private Integer product_id;
+    private String product_name;
     private Integer qty;
     private String unit_price;
     private Integer discount;

@@ -10,6 +10,7 @@ import java.util.UUID;
 
 public abstract class Orders {
     private UUID id;
+    private String number;
     private String totalPrice;
     private String type;//online - in person
     private int discount;

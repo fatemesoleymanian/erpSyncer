@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Orders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +31,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "A:/workSpace/Architecture/sample-mvc pattern/sample-mvc pattern",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/workSpace/Architecture/sample-mvc pattern/sample-mvc pattern&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +61,9 @@
       <workItem from="1727959078817" duration="5482000" />
       <workItem from="1728571094038" duration="392000" />
       <workItem from="1728581186832" duration="2181000" />
-      <workItem from="1728709990224" duration="10001000" />
+      <workItem from="1728709990224" duration="10816000" />
+      <workItem from="1729347904194" duration="767000" />
+      <workItem from="1729863889583" duration="3179000" />
     </task>
     <servers />
   </component>
