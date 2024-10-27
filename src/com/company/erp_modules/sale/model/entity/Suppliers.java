@@ -1,5 +1,6 @@
 package com.company.erp_modules.sale.model.entity;
 
+import java.util.Date;
 import java.util.UUID;
 
 public class Suppliers {
@@ -16,6 +17,9 @@ public class Suppliers {
     private String fax;
     private String home_page;
     private Boolean status;
+    private Date created_at;
+    private Date updated_at;
+    private Date deleted_at;
 
     public Suppliers(UUID id, String company_name, String contact_name, String phone, String email, String address, String region, String city, String postal_code, String country, String fax, String home_page, Boolean status) {
         this.id = id;

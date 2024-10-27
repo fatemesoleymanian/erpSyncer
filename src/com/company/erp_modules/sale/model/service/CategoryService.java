@@ -12,16 +12,16 @@ public class CategoryService {
 
     }
     //return specifics
-    public void show(){
-        this.categoryRepository.findMany();
-    }
+//    public void show(){
+//        this.categoryRepository.findMany();
+//    }
     public void store(){
         this.categoryRepository.save();
     }
-    public void edit(){
-        this.categoryRepository.update();
-    }
-    public void destroy(){
-        this.categoryRepository.delete();
-    }
+//    public void edit(){
+//        this.categoryRepository.update();
+//    }
+//    public void destroy(){
+//        this.categoryRepository.delete();
+//    }
 }

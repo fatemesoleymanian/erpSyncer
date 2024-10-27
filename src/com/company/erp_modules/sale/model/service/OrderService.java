@@ -13,19 +13,19 @@ public class OrderService {
     }
     //return specifics
     public void show(){
-        this.orderRepository.findMany();
+//        this.orderRepository.findMany();
     }
     public void store(){
         this.orderRepository.save();
     }
     public void edit(){
-        this.orderRepository.update();
+//        this.orderRepository.update();
     }
     public void editStatus(){
-        this.orderRepository.update();
+//        this.orderRepository.update();
     }
     public void destroy(){
-        this.orderRepository.delete();
+//        this.orderRepository.delete();
     }
     private void getTotalPrice(){
 

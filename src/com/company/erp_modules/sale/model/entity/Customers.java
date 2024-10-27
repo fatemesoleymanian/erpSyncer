@@ -14,6 +14,7 @@ public class Customers {
     private String billing_address; //The billing address is used for payment verification and invoicing. physical order
     private String shipping_address;//The shipping address is where the product is sent :: online order
 
+    private boolean active;
     private String city;
     private String region;
     private String country;

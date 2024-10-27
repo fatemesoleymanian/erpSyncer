@@ -12,15 +12,15 @@ public class ProductService {
     }
     //return specifics like products in a category
     public void show(String parameter ,String value){
-        this.productRepository.findMany();
+//        this.productRepository.findMany();
     }
     public void store(){
         this.productRepository.save();
     }
     public void edit(){
-        this.productRepository.update();
+//        this.productRepository.update();
     }
     public void destroy(){
-        this.productRepository.delete();
+//        this.productRepository.delete();
     }
 }

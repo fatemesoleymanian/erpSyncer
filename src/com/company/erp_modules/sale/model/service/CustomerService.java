@@ -12,15 +12,15 @@ public class CustomerService {
     }
     //return specifics
     public void show(){
-        this.customersRepository.findMany();
+//        this.customersRepository.findMany();
     }
     public void store(){
-        this.customersRepository.save();
+//        this.customersRepository.save();
     }
     public void edit(){
-        this.customersRepository.update();
+//        this.customersRepository.update();
     }
     public void destroy(){
-        this.customersRepository.delete();
+//        this.customersRepository.delete();
     }
 }

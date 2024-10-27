@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/OrderDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ErpSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Suppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Suppliers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Territories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/entity/Territories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;A:/workSpace/Architecture/sample-mvc pattern/sample-mvc pattern&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/workSpace/java libraries/postgresql-42.7.4.jar&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -63,7 +70,11 @@
       <workItem from="1728581186832" duration="2181000" />
       <workItem from="1728709990224" duration="10816000" />
       <workItem from="1729347904194" duration="767000" />
-      <workItem from="1729863889583" duration="3179000" />
+      <workItem from="1729863889583" duration="5507000" />
+      <workItem from="1729945165015" duration="596000" />
+      <workItem from="1729947631673" duration="4274000" />
+      <workItem from="1730028929174" duration="69000" />
+      <workItem from="1730034071067" duration="3806000" />
     </task>
     <servers />
   </component>
