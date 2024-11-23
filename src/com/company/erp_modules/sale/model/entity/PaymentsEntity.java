@@ -5,11 +5,12 @@ package com.company.erp_modules.sale.model.entity;
 import com.company.erp_modules.sale.model.entity.statics.PaymentMethods;
 import com.company.erp_modules.sale.model.entity.statics.PaymentStatus;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Payments {
-    private UUID id;
+public class PaymentsEntity implements Serializable {
+    private BigInteger id;
     private Integer order_id;
     private Integer invoice_id;
     private PaymentMethods payment_method;
@@ -18,7 +19,7 @@ public class Payments {
     private Date created_at;
     private Date updated_at;
 
-    public Payments(UUID id, Integer order_id, Integer invoice_id, PaymentMethods payment_method, String amount, PaymentStatus payment_status, Date created_at, Date updated_at) {
+    public PaymentsEntity(BigInteger id, Integer order_id, Integer invoice_id, PaymentMethods payment_method, String amount, PaymentStatus payment_status, Date created_at, Date updated_at) {
         this.id = id;
         this.order_id = order_id;
         this.invoice_id = invoice_id;
@@ -29,11 +30,11 @@ public class Payments {
         this.updated_at = updated_at;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

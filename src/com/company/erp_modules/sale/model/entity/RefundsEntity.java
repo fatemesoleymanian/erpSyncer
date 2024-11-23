@@ -1,10 +1,11 @@
 package com.company.erp_modules.sale.model.entity;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Refunds {
-    private UUID id;
+public class RefundsEntity implements Serializable {
+    private BigInteger id;
     private Integer order_id;
     private Integer invoice_id;
     private Integer payment_id;
@@ -13,7 +14,7 @@ public class Refunds {
     private String email;
     private Date created_at;
 
-    public Refunds(UUID id, Integer order_id, Integer invoice_id, Integer payment_id, String reason, String text, String email, Date created_at) {
+    public RefundsEntity(BigInteger id, Integer order_id, Integer invoice_id, Integer payment_id, String reason, String text, String email, Date created_at) {
         this.id = id;
         this.order_id = order_id;
         this.invoice_id = invoice_id;
@@ -24,11 +25,11 @@ public class Refunds {
         this.created_at = created_at;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

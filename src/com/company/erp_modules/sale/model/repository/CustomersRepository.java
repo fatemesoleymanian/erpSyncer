@@ -1,13 +1,13 @@
 package com.company.erp_modules.sale.model.repository;
 
 
-import com.company.erp_modules.sale.model.entity.Customers;
+import com.company.erp_modules.sale.model.entity.CustomersEntity;
 import java.util.List;
 import java.util.UUID;
 
 public class CustomersRepository {
 
-    private Customers customer;
+    private CustomersEntity customer;
     public void save(){
 
     }
@@ -20,7 +20,7 @@ public class CustomersRepository {
     public void findAll(){
 
     }
-    public void update(UUID id, Customers customer){
+    public void update(UUID id, CustomersEntity customer){
 
     }
     public void updateMany(List<UUID> ids){

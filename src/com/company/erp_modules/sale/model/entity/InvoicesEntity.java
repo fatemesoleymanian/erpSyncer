@@ -3,18 +3,19 @@ package com.company.erp_modules.sale.model.entity;
 
 import com.company.erp_modules.sale.model.entity.statics.InvoiceStatus;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Invoices {
-    private UUID id;
+public class InvoicesEntity implements Serializable {
+    private BigInteger id;
     private Integer order_id;
     private String total_amount;
     private InvoiceStatus invoice_status;
     private Date created_at;
     private Date updated_at;
 
-    public Invoices(UUID id, Integer order_id, String total_amount, InvoiceStatus invoice_status, Date created_at, Date updated_at) {
+    public InvoicesEntity(BigInteger id, Integer order_id, String total_amount, InvoiceStatus invoice_status, Date created_at, Date updated_at) {
         this.id = id;
         this.order_id = order_id;
         this.total_amount = total_amount;
@@ -23,11 +24,11 @@ public class Invoices {
         this.updated_at = updated_at;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

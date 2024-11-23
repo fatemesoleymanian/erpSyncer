@@ -1,9 +1,10 @@
 package com.company.erp_modules.sale.model.entity;
 
-import java.util.UUID;
+import java.io.Serializable;
+import java.math.BigInteger;
 
-public class OrderDetails {
-    private UUID id;
+public class OrderDetailsEntity implements Serializable {
+    private BigInteger id;
     private Integer order_id;
     private String order_number;
     private Integer product_id;
@@ -17,7 +18,7 @@ public class OrderDetails {
         this.total_price = String.valueOf((Integer.parseInt(this.unit_price) * this.qty * (100 - this.discount)) / 100);
     }
 
-    public OrderDetails(UUID id, Integer order_id, Integer product_id, Integer qty, String unit_price, Integer discount, String total_price) {
+    public OrderDetailsEntity(BigInteger id, Integer order_id, Integer product_id, Integer qty, String unit_price, Integer discount, String total_price) {
         this.id = id;
         this.order_id = order_id;
         this.product_id = product_id;
@@ -27,11 +28,11 @@ public class OrderDetails {
         this.total_price = total_price;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

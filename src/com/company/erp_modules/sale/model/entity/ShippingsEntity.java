@@ -3,20 +3,48 @@ package com.company.erp_modules.sale.model.entity;
 
 import com.company.erp_modules.sale.model.entity.statics.ShippingMethods;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Shippings {
+public class ShippingsEntity implements Serializable {
     private Integer id;
-    private UUID order_id;
+    private BigInteger order_id;
     private Integer shipper_id;
     private ShippingMethods shipping_method;
     private String tracking_number;
     private Date shipped_date;
     private Date deliver_date;
     private Date required_date;
+    private Date created_at;
+    private Date updated_at;
+    private Date deleted_at;
 
-    public Shippings(Integer id, UUID order_id, Integer shipper_id, ShippingMethods shipping_method, String tracking_number, Date shipped_date, Date deliver_date, Date required_date) {
+    public Date getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(Date created_at) {
+        this.created_at = created_at;
+    }
+
+    public Date getUpdated_at() {
+        return updated_at;
+    }
+
+    public void setUpdated_at(Date updated_at) {
+        this.updated_at = updated_at;
+    }
+
+    public Date getDeleted_at() {
+        return deleted_at;
+    }
+
+    public void setDeleted_at(Date deleted_at) {
+        this.deleted_at = deleted_at;
+    }
+
+    public ShippingsEntity(Integer id, BigInteger order_id, Integer shipper_id, ShippingMethods shipping_method, String tracking_number, Date shipped_date, Date deliver_date, Date required_date) {
         this.id = id;
         this.order_id = order_id;
         this.shipper_id = shipper_id;
@@ -35,11 +63,11 @@ public class Shippings {
         this.id = id;
     }
 
-    public UUID getOrder_id() {
+    public BigInteger getOrder_id() {
         return order_id;
     }
 
-    public void setOrder_id(UUID order_id) {
+    public void setOrder_id(BigInteger order_id) {
         this.order_id = order_id;
     }
 

@@ -5,11 +5,12 @@ package com.company.erp_modules.sale.model.entity;
 import com.company.erp_modules.sale.model.entity.statics.OrderStatus;
 import com.company.erp_modules.sale.model.entity.statics.PaymentStatus;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public abstract class Orders {
-    private UUID id;
+public abstract class OrdersEntity implements Serializable {
+    private BigInteger id;
     private String number;
     private String totalPrice;
     private String type;//online - in person
@@ -21,8 +22,8 @@ public abstract class Orders {
     private PaymentStatus payment_status;
     private String charge_id;
     /**RELATIONS **/
-    private UUID invoice_id;
-    private UUID costumer_id;
+    private BigInteger invoice_id;
+    private BigInteger costumer_id;
     private Date created_at;
     private Date updated_at;
 

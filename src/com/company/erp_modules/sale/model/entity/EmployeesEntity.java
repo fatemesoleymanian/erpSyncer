@@ -1,10 +1,11 @@
 package com.company.erp_modules.sale.model.entity;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Employees {
-    private UUID id;
+public class EmployeesEntity implements Serializable {
+    private BigInteger id;
     private String first_name;
     private String last_name;
     private String title;
@@ -26,7 +27,7 @@ public class Employees {
     private Date updated_at;
     private Date deleted_at;
 
-    public Employees(UUID id, String first_name, String last_name, String title, Boolean gender, Date birth_date, Date hire_date, String address, String city, String region, String postal_code, String country, String phone, String email, String photo, Integer department_id, Integer territory_id, Boolean status, Date created_at, Date updated_at, Date deleted_at) {
+    public EmployeesEntity(BigInteger id, String first_name, String last_name, String title, Boolean gender, Date birth_date, Date hire_date, String address, String city, String region, String postal_code, String country, String phone, String email, String photo, Integer department_id, Integer territory_id, Boolean status, Date created_at, Date updated_at, Date deleted_at) {
         this.id = id;
         this.first_name = first_name;
         this.last_name = last_name;
@@ -50,11 +51,11 @@ public class Employees {
         this.deleted_at = deleted_at;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

@@ -1,10 +1,11 @@
 package com.company.erp_modules.sale.model.entity;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-import java.util.UUID;
 
-public class Categories {
-    private UUID id;
+public class CategoriesEntity implements Serializable {
+    private BigInteger id;
     private String name;
     private String description;
     private String picture;
@@ -12,7 +13,7 @@ public class Categories {
     private Date updated_at;
     private Date deleted_at;
 
-    public Categories(UUID id, String name, String description, String picture, Date created_at, Date updated_at, Date deleted_at) {
+    public CategoriesEntity(BigInteger id, String name, String description, String picture, Date created_at, Date updated_at, Date deleted_at) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -22,11 +23,11 @@ public class Categories {
         this.deleted_at = deleted_at;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 

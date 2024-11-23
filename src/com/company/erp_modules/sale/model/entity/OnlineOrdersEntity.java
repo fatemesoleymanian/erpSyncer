@@ -1,18 +1,20 @@
 package com.company.erp_modules.sale.model.entity;
 
+import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
 
-public class OnlineOrders extends Orders {
+public class OnlineOrdersEntity extends OrdersEntity implements Serializable {
     private Date shipped_date;
     private Date deliver_date;
     private Date required_date;
     private String ip_address;
     private String payment_gateway;//-- e.g., PayPal, Stripe
-    private int basket_id;
-    private int transaction_id;
-    private int ship_id;
+    private BigInteger basket_id;
+    private BigInteger transaction_id;
+    private BigInteger ship_id;
 
-    public OnlineOrders(Date shipped_date, Date deliver_date, Date required_date, String ip_address, String payment_gateway, int basket_id, int transaction_id, int ship_id) {
+    public OnlineOrdersEntity(Date shipped_date, Date deliver_date, Date required_date, String ip_address, String payment_gateway, BigInteger basket_id, BigInteger transaction_id, BigInteger ship_id) {
         this.shipped_date = shipped_date;
         this.deliver_date = deliver_date;
         this.required_date = required_date;
@@ -63,27 +65,27 @@ public class OnlineOrders extends Orders {
         this.payment_gateway = payment_gateway;
     }
 
-    public int getBasket_id() {
+    public BigInteger getBasket_id() {
         return basket_id;
     }
 
-    public void setBasket_id(int basket_id) {
+    public void setBasket_id(BigInteger basket_id) {
         this.basket_id = basket_id;
     }
 
-    public int getTransaction_id() {
+    public BigInteger getTransaction_id() {
         return transaction_id;
     }
 
-    public void setTransaction_id(int transaction_id) {
+    public void setTransaction_id(BigInteger transaction_id) {
         this.transaction_id = transaction_id;
     }
 
-    public int getShip_id() {
+    public BigInteger getShip_id() {
         return ship_id;
     }
 
-    public void setShip_id(int ship_id) {
+    public void setShip_id(BigInteger ship_id) {
         this.ship_id = ship_id;
     }
 }

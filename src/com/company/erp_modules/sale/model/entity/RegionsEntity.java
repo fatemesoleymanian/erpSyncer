@@ -1,21 +1,22 @@
 package com.company.erp_modules.sale.model.entity;
 
-import java.util.UUID;
+import java.io.Serializable;
+import java.math.BigInteger;
 
-public class Regions {
-    private UUID id;
+public class RegionsEntity implements Serializable {
+    private BigInteger id;
     private String description;
 
-    public Regions(UUID id, String description) {
+    public RegionsEntity(BigInteger id, String description) {
         this.id = id;
         this.description = description;
     }
 
-    public UUID getId() {
+    public BigInteger getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 
