@@ -6,7 +6,6 @@ public class ConnectionManagement {
     public void connectionListener(){
         // Authorize
         //Make connection
-        this.connectionPool.
 
     }
 }

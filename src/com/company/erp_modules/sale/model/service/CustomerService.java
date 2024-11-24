@@ -6,21 +6,21 @@ public class CustomerService {
 
    private CustomersRepository customersRepository;
 
-    public void index(){
-        this.customersRepository.findAll();
+    public void findAll(){
+        this.customersRepository.selectAll();
 
     }
     //return specifics
-    public void show(){
+    public void find(){
 //        this.customersRepository.findMany();
     }
-    public void store(){
+    public void save(){
 //        this.customersRepository.save();
     }
-    public void edit(){
+    public void change(){
 //        this.customersRepository.update();
     }
-    public void destroy(){
+    public void remove(){
 //        this.customersRepository.delete();
     }
 }

@@ -8,23 +8,23 @@ public class OrderService {
 
     private OrderRepository orderRepository;
 
-    public void index(){
-        this.orderRepository.findAll();
+    public void findAll(){
+        this.orderRepository.selectAll();
     }
     //return specifics
-    public void show(){
+    public void find(){
 //        this.orderRepository.findMany();
     }
-    public void store(){
-        this.orderRepository.save();
+    public void save(){
+        this.orderRepository.insert();
     }
-    public void edit(){
+    public void change(){
 //        this.orderRepository.update();
     }
-    public void editStatus(){
+    public void changeStatus(){
 //        this.orderRepository.update();
     }
-    public void destroy(){
+    public void remove(){
 //        this.orderRepository.delete();
     }
     private void getTotalPrice(){

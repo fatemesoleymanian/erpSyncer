@@ -7,21 +7,21 @@ public class CategoryService {
     private CategoryRepository categoryRepository;
 
     //return all
-    public void index(){
-        this.categoryRepository.findAll();
+    public void find(){
+        this.categoryRepository.selectAll();
 
     }
     //return specifics
-//    public void show(){
+//    public void find(){
 //        this.categoryRepository.findMany();
 //    }
-    public void store(){
-        this.categoryRepository.save();
+    public void save(){
+        this.categoryRepository.insert();
     }
-//    public void edit(){
+//    public void change(){
 //        this.categoryRepository.update();
 //    }
-//    public void destroy(){
+//    public void remove(){
 //        this.categoryRepository.delete();
 //    }
 }

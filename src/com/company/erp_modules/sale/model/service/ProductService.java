@@ -7,20 +7,20 @@ public class ProductService {
     private ProductRepository productRepository;
     private ProductAttributeRepository productAttributeRepository;
 
-    public void index(){
-        this.productRepository.findAll();
+    public void findAll(){
+        this.productRepository.selectAll();
     }
     //return specifics like products in a category
-    public void show(String parameter ,String value){
+    public void find(String parameter ,String value){
 //        this.productRepository.findMany();
     }
-    public void store(){
-        this.productRepository.save();
+    public void save(){
+        this.productRepository.insert();
     }
-    public void edit(){
+    public void change(){
 //        this.productRepository.update();
     }
-    public void destroy(){
+    public void remove(){
 //        this.productRepository.delete();
     }
 }

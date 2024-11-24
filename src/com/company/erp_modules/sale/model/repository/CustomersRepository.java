@@ -8,16 +8,16 @@ import java.util.UUID;
 public class CustomersRepository {
 
     private CustomersEntity customer;
-    public void save(){
+    public void insert(){
 
     }
-    public void find(UUID id){
+    public void select(UUID id){
 
     }
-    public void findMany(List<UUID> ids){
+    public void selectMany(List<UUID> ids){
 
     }
-    public void findAll(){
+    public void selectAll(){
 
     }
     public void update(UUID id, CustomersEntity customer){
