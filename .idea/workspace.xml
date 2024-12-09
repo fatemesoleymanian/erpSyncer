@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b2a6701-f17e-42ca-9c73-645914711f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/CustomersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductAttributeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/erp_modules/sale/model/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/smartbrain/tools/database/connection/ConnectionManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/smartbrain/tools/database/connection/ConnectionManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/smartbrain/tools/database/connection/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/smartbrain/tools/database/connection/ConnectionPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +73,10 @@
       <workItem from="1731502146479" duration="1940000" />
       <workItem from="1731764058573" duration="2006000" />
       <workItem from="1732364963968" duration="5755000" />
-      <workItem from="1732440286813" duration="1075000" />
+      <workItem from="1732440286813" duration="2428000" />
+      <workItem from="1732799008598" duration="4682000" />
+      <workItem from="1733495303396" duration="596000" />
+      <workItem from="1733728916609" duration="1036000" />
     </task>
     <servers />
   </component>

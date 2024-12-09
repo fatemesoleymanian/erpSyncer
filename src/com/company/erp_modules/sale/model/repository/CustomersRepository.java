@@ -2,10 +2,18 @@ package com.company.erp_modules.sale.model.repository;
 
 
 import com.company.erp_modules.sale.model.entity.CustomersEntity;
+import com.company.smartbrain.tools.database.connection.ConnectionManagement;
+
 import java.util.List;
 import java.util.UUID;
 
 public class CustomersRepository {
+    private ConnectionManagement connection;
+
+    public CustomersRepository(){
+        connection = new ConnectionManagement();
+        connection.connectionListener();
+    }
 
     private CustomersEntity customer;
     public void insert(){

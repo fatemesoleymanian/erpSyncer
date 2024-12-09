@@ -1,12 +1,18 @@
 package com.company.erp_modules.sale.model.repository;
 
 import com.company.erp_modules.sale.model.entity.ProductAttribiutesEntity;
+import com.company.smartbrain.tools.database.connection.ConnectionManagement;
 
 import java.util.List;
 import java.util.UUID;
 
 public class ProductAttributeRepository {
+    private ConnectionManagement connection;
     private ProductAttribiutesEntity productAttribiute;
+    public ProductAttributeRepository(){
+        connection = new ConnectionManagement();
+        connection.connectionListener();
+    }
     public void insert(){
 
     }
